@@ -14,6 +14,7 @@
 		046F62452546868F00245DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F62442546868F00245DDE /* Assets.xcassets */; };
 		046F62482546868F00245DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F62462546868F00245DDE /* LaunchScreen.storyboard */; };
 		046F6251254695CF00245DDE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F6250254695CF00245DDE /* CollectionViewCell.swift */; };
+		04E3E40C2546F7F9006BD065 /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E40B2546F7F8006BD065 /* CollectionViewCell1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		046F62472546868F00245DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046F62492546868F00245DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046F6250254695CF00245DDE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		04E3E40B2546F7F8006BD065 /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				046F62412546868C00245DDE /* Main.storyboard */,
 				046F6250254695CF00245DDE /* CollectionViewCell.swift */,
 				046F62442546868F00245DDE /* Assets.xcassets */,
+				04E3E40B2546F7F8006BD065 /* CollectionViewCell1.swift */,
 				046F62462546868F00245DDE /* LaunchScreen.storyboard */,
 				046F62492546868F00245DDE /* Info.plist */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E3E40C2546F7F9006BD065 /* CollectionViewCell1.swift in Sources */,
 				046F62402546868C00245DDE /* ViewController.swift in Sources */,
 				046F623C2546868C00245DDE /* AppDelegate.swift in Sources */,
 				046F6251254695CF00245DDE /* CollectionViewCell.swift in Sources */,
@@ -291,11 +295,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S366933BA9;
 				INFOPLIST_FILE = CollectionViewsPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = Meet.CollectionViewsPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -309,11 +315,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S366933BA9;
 				INFOPLIST_FILE = CollectionViewsPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = Meet.CollectionViewsPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
